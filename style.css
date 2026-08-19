@@ -40,6 +40,9 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f8f9fa;
+    overflow-x: hidden;
+    overflow-y: auto;
+
 }
 
 html {
@@ -748,112 +751,4 @@ html {
 
 footer {
     margin-top: 0;
-}
-
-
-
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
-
-@media (max-width: 768px) {
-
-    /* Navbar */
-    .navbar {
-        padding: 10px 15px;
-    }
-
-    .navbar .container {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navbar-nav {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-
-    /* Hero */
-    .hero {
-        min-height: auto;
-        padding: 50px 20px;
-    }
-
-    .hero h1 {
-        font-size: 38px;
-        line-height: 1.15;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .hero img {
-        width: 100%;
-        height: auto;
-        margin-top: 25px;
-    }
-
-    /* Search */
-    .search-box {
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    /* Categories */
-    .category-card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .category-image {
-        height: 200px;
-    }
-
-    /* Products */
-    .product-card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    /* About / Story */
-    .about-section .row,
-    .story-section .row {
-        flex-direction: column;
-    }
-
-    .about-section img,
-    .story-section img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    /* Offer */
-    .offer-section .row {
-        flex-direction: column;
-    }
-
-    .offer-image {
-        width: 100%;
-        height: 220px;
-        margin-top: 20px;
-    }
-
-    /* Headings */
-    h1 {
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    /* Buttons */
-    .btn {
-        width: 100%;
-        margin-bottom: 10px;
-    }
 }
