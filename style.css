@@ -268,7 +268,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: scale(1.5);
+    transform: scale(1.2);
     overflow: hidden;
 
 }
