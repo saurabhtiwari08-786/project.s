@@ -751,34 +751,109 @@ footer {
 }
 
 
-/* ================= MOBILE ================= */
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
 
 @media (max-width: 768px) {
 
-    .hero,
-    .service-hero,
-    .about-hero,
-    .contact-hero {
-        padding: 50px 0;
+    /* Navbar */
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .navbar .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 
-    .hero h1,
-    .service-hero h1,
-    .about-hero h1,
-    .contact-hero h1 {
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
         font-size: 38px;
+        line-height: 1.15;
     }
 
-    .hero-image,
-    .service-image {
-        height: 280px;
-        margin-top: 30px;
+    .hero p {
+        font-size: 16px;
     }
 
-    .booking-box,
-    .contact-form {
-        padding: 25px;
+    .hero img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
     }
 
+    /* Search */
+    .search-box {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* Categories */
+    .category-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .category-image {
+        height: 200px;
+    }
+
+    /* Products */
+    .product-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* About / Story */
+    .about-section .row,
+    .story-section .row {
+        flex-direction: column;
+    }
+
+    .about-section img,
+    .story-section img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Offer */
+    .offer-section .row {
+        flex-direction: column;
+    }
+
+    .offer-image {
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    /* Buttons */
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
